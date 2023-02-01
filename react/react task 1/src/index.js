@@ -6,13 +6,9 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-function Header(){
-  return <header>
-    <h3>basliq salam </h3>
-  </header>
-}
-root.render(
-<Header/>
+
+root.render(<App/>
+
 );
 
 
