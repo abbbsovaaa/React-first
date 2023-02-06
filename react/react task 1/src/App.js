@@ -17,11 +17,11 @@ function App() {
   return (
     <>
     <nav>
-      <a href="/">Koala</a>
-      <a href="/Dinazor">Dinazor</a>
-      <a href="/Begemont">Begemont</a>
-      <a href="/Sican">Sican</a>
-      <a href="/Panda">Panda</a>
+      <a style={{margin: '0px 130px'}} href="/">Koala</a>
+      <a style={{margin: '0px 130px'}} href="/Dinazor">Dinazor</a>
+      <a style={{margin: '0px 130px'}} href="/Begemont">Begemont</a>
+      <a style={{margin: '0px 130px'}} href="/Sican">Sican</a>
+      <a style={{margin: '0px 130px'}} href="/Panda">Panda</a>
     </nav>
       <Routes>
         <Route path="/" element={<Koala />} />
