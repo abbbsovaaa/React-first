@@ -1,3 +1,4 @@
+import image from '../../assets/mtt service 1.png'
 const UstaSifarisi = () => {
     return (
 
@@ -5,37 +6,55 @@ const UstaSifarisi = () => {
             position: "absolute",
             width: '35vw',
             height: '100vh',
-            backgroundColor: 'darkblue'
+            backgroundColor: '#0071BB'
         }}>
-            <h1 style={{
-                color: 'white',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center'
-            }}>MTT </h1>
-            <h4 style={{
-                color: 'white',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center'
-            }}>service</h4>
+
+
+
+
+            <img style={{
+                position: 'absolute',
+                width: 202,
+                height: 80,
+                left: 165,
+                top: 422,
+                color: 'lightblue'
+
+            }} src={image} alt="" />
+
+
+
+
             <h2>Usta Sifarisi </h2>
+
+
+
             <input
                 style={{
                     width: '20vw',
-                    height: '6vh'
+                    height: '6vh',
                 }}
                 type="text" placeholder="*Adiniz ve soyadiniz" />
+
+
+
             <input
                 style={{
                     width: '20vw',
                     height: '6vh'
                 }}
                 type="password" placeholder="*Telefon nömrənizi daxil edin " />
+
+
+
             <input style={{
                 width: '20vw',
                 height: '6vh'
             }} type="text" placeholder="*Sifaris etmek istediyiniz xidmeti secin" />
+
+
+
+
             <input style={{
                 width: '20vw',
                 height: '9vh',
