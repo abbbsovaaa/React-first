@@ -8,7 +8,8 @@ const NotFound = () => {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            justifyContent: 'center'
+            justifyContent: 'center',
+            backgroundColor:'aliceblue'
         }}>
             <h1>Axtardiginiz sehife tapilmadi</h1>
             <img style={{
