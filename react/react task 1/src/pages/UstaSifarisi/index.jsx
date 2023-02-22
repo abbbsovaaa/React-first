@@ -3,6 +3,7 @@ const UstaSifarisi = () => {
     return (
 
         <div style={{
+
             position: "absolute",
             width: '35vw',
             height: '100vh',
@@ -25,7 +26,9 @@ const UstaSifarisi = () => {
 
 
 
-            <h2>Usta Sifarisi </h2>
+            <h2 style={{
+               
+            }}>Usta Sifarisi </h2>
 
 
 
@@ -33,7 +36,12 @@ const UstaSifarisi = () => {
                 style={{
                     width: '20vw',
                     height: '6vh',
+                    display:'flex',
+                    flexDirection:'row',
+                    justifyContent:'space-around',
+               
                 }}
+
                 type="text" placeholder="*Adiniz ve soyadiniz" />
 
 
