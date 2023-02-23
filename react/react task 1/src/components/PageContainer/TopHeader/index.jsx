@@ -5,17 +5,17 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
-
-const Elaqeler = () => {
+const TopHeader = () => {
   return (
       <Box
           sx={{
               backgroundColor: '#2B343B',
-              '&  p': {
+             '&  p': {
                   color: 'white'
               },
               '& *': {
                   color: 'white',
+                      
                   textDecoration: 'none'
               },
           }}
@@ -45,7 +45,9 @@ const Elaqeler = () => {
               </Stack>
           </Container>
       </Box>
+    
   )
+
 }
 
-export default Elaqeler;
+export default TopHeader;
