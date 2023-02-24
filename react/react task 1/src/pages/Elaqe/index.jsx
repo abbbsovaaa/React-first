@@ -1,11 +1,13 @@
+import Header from "../../components/PageContainer/Header";
+import TopHeader from "../../components/PageContainer/TopHeader";
+
 const Elaqe=()=>{
   return(
     <>
-    <div style={{
-      width:'100wv',
-      height:'100wh',
-      color:'red'
-    }}>gfurur</div>
+    <TopHeader/>
+    <Header/>
+   
+    
     
     </>
   )

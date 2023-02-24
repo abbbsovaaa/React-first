@@ -1,7 +1,7 @@
 import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
 import SettingsPhoneOutlinedIcon from '@mui/icons-material/SettingsPhoneOutlined';
 import { Box, Container, Grid, Stack, Typography } from "@mui/material";
-import logo from 'assets/logo.png';
+import logo from '../../../assets/logo.png';
 
 const Header = () => {
     return (
