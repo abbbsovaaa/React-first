@@ -1,4 +1,5 @@
 import Header from "./Header"
+import SecondHeader from "./SecondHeader"
 import TopHeader from "./TopHeader"
 
 const PageContainer = ({ hasBanner, children }) => {
@@ -6,6 +7,9 @@ const PageContainer = ({ hasBanner, children }) => {
         <>
             <TopHeader />
             <Header />
+            <SecondHeader />
+       
+
             {
                 hasBanner && <div>
 
@@ -14,7 +18,7 @@ const PageContainer = ({ hasBanner, children }) => {
             <main>
                 {children}
             </main>
-            <Footer />
+
         </>
     )
 }
