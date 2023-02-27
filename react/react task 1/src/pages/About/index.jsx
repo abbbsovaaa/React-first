@@ -1,7 +1,7 @@
 import { Paper } from "@mui/material";
 import { Box, Container, Stack } from "@mui/system";
 import PageContainer from "../../components/PageContainer"
-
+import usta from "../../assets/usta.png"
 const About = () => {
     return (
 
@@ -62,7 +62,12 @@ const About = () => {
 
                 </Box>
 
-
+       <Stack sx={{
+        width:'100px',
+        height:'100px',
+       }}>
+        <img src="usta" alt="usta" />
+       </Stack>
 
 
 
