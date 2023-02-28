@@ -1,76 +1,38 @@
-import { Paper } from "@mui/material";
+import { Paper, Typography } from "@mui/material";
 import { Box, Container, Stack } from "@mui/system";
 import PageContainer from "../../components/PageContainer"
-import usta from "../../assets/usta.png"
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import usta from '../../assets/usta.png'
 const About = () => {
     return (
 
-        <PageContainer>
-            <Container>
-                <Box sx={{
-                    display: 'flex',
-                    margin:'50px'
-                }}>
-                    <Paper sx={{
-                        width: ' 300px',
-                        height: '200px',
-
-                    }} elevation={3}>
-                        <Stack
-                            sx={{
-                                margin: 'auto 50px'
-                            }}> <h4>Telefon</h4></Stack>
-                        <Stack sx={{
-                            margin: '10px 50px'
-                        }}>(+994 12) 565-1-565</Stack>
-                        <Stack sx={{
-                            margin: '10px 50px'
-                        }}>(+994 12) 565-2-565</Stack>
-                        <Stack sx={{
-                            margin: '10px 50px'
-                        }}>(+994 55) 222-32-46</Stack>
-                        <Stack sx={{
-                            margin: '10px 50px'
-                        }}>(+994 55) 222-34-19</Stack>
+        <PageContainer pageName="Elaqe">
+            <Container maxWidth="lg">
+                <Stack direction={{ xs: 'column', md: "row" }} mx="auto" maxWidth={600} spacing={3} mt={10}>
+                    <Paper elevation={5} sx={{ minWidth: 250 }}>
+                        <Typography> <LocalPhoneIcon /> Telefon</Typography>
+                        <Typography pl={4}>(+994 12) 565-1-565</Typography>
+                        <Typography pl={4}>(+994 12) 565-2-565</Typography>
+                        <Typography pl={4}>(+994 55) 222-32-46</Typography>
+                        <Typography pl={4}>(+994 55) 222-34-19</Typography>
                     </Paper>
-                    <Paper sx={{
-                        width: '300px',
-                        height: '100px',
-                       margin:'10px'
+                    <Stack justifyContent="space-between">
+                        <Paper sx={{ minWidth: 230 }}>
+                            <Typography> <LocalPhoneIcon /> Unvan</Typography>
+                            <Typography>Bakı ş., Şamaxı yolu 15-ci km.</Typography>
+                        </Paper>
+                        <Paper sx={{ minWidth: 230 }}>
+                            <Typography> <LocalPhoneIcon /> Email</Typography>
+                            <Typography>office@solitonservice.com</Typography>
+                        </Paper>
 
-                    }} elevation={3}>
-                        <Stack sx={{
-                            margin:'5px 10px'
-                        }}><h3>Ünvan</h3></Stack>
-                        <Stack sx={{
-                            margin:'5px 10px'
-                        }}>Bakı ş., Şamaxı yolu 15-ci km.</Stack>
-                    </Paper>
-                    <Paper sx={{
-                        width: '300px',
-                        height: '100px',
+                        <br></br>
+                    </Stack>
+                </Stack>
 
-                    }} elevation={3}>
-
-                        <Stack sx={{
-                            margin:'5px 10px'
-                        }}> <h3>Email</h3> </Stack>
-                        <Stack sx={{
-                            margin:'5px 10px'
-                        }}>office@solitonservice.com</Stack>
-                    </Paper>
-
-                </Box>
-
-       <Stack sx={{
-        width:'100px',
-        height:'100px',
-       }}>
-        <img src="usta" alt="usta" />
-       </Stack>
-
-
-
+                <Stack>
+                    <h2>Servis Menteqelerimiz</h2>
+                </Stack>
             </Container>
         </PageContainer>
 
