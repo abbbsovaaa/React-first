@@ -1,3 +1,4 @@
+import Footer from "../../components/PageContainer/Footer";
 import Header from "../../components/PageContainer/Header";
 
 import SecondHeader from "../../components/PageContainer/SecondHeader";
@@ -10,7 +11,7 @@ const Elaqe = () => {
       <Header />
       <SecondHeader />
     
-
+<Footer/>
     </>
   )
 }
